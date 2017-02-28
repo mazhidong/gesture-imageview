@@ -99,3 +99,9 @@ code::
 License
 ~~~~~~~
 `Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_
+				
+		代码过时代替	
+		//end.x = FloatMath.cos(angle) * length + start.x;
+		end.x = (float) Math.cos(angle) * length + start.x;
+		//end.y = FloatMath.sin(angle) * length + start.y;
+		end.y = (float) Math.sin(angle) * length + start.y;
